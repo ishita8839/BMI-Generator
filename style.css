@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
+body{
+    background-color: rgb(246, 237, 247);
+}
+
+.canvas{
+    width: 500px;
+    height: 450px;
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 25px;
+    justify-content: center;  
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+.box1{
+    display: inline-block;
+    margin-top: inherit;
+    background-color: rgb(238, 250, 240);
+    border-radius: 25px;
+    padding: 10px;
+    width: 350px;
+    border: 1px solid grey;
+    
+}
+
+#results {
+    font-size: 12px;
+    margin-top: 2px;
+    color: rgb(252, 112, 112);
+}
+
+.box1 p{
+    padding-top: 10px;  
+}
+.box1 label{
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    padding-right: 20px;
+}
+
+.classroom{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+    margin-top: 55px;
+}
+
+.box{
+    margin-top: 20px;
+    line-height: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    background-color: azure;
+    width: 250px;
+    margin-left: 132px;
+    height: 130px;
+    border-radius: 25px;
+    padding-top: 5px;
+
+}
+.box h3{
+    font-size: large;
+}
+.box p{
+    font-size: small;
+}
+button{
+    border: none;
+    padding: 10px;
+    background-color: #c2f1c5;
+    margin-top: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    width: 90px;
+}
+.box1 input[type=text]{
+    border: 1px solid grey;
+    padding: 8px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+}
+
